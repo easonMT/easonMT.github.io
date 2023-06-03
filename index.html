@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>"If I work hard at it, I'll be where I want to be" - Nas</header>
-    <nav>About Me</nav>
-    <nav>Projects</nav>
-    <h1>From HR to SDE</h1>
-    <h2>The Professional Portfolio of Tristin Eason</h2>
-    <section>
-        <h3>About Me</h3>
-        <h4>Bio:</h4>
-        <p>I was born and raised in a small town in North East North Carolina. Since a youth, i've always had an interest in tech but I never thought to make a career out of it. I've worked in a variety of fields such as warehouses, sales, customer service, and even insurance. Although I've gained impeccable soft skills, I never got to fully imerse myself into tech.</p>
+    <header></header>
+    <section class="navi">
+        <nav>
+            <h2 class="logo">My Professional Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contactMe">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <h4>Welcome to my page, my name is</h4>
+            <h1>Tristin Eason</h1>
+            <h3>and I'm an aspiring Software Developer</h3>
+
+        </section>
     </section>
-    <!-- Place Photo here -->
-    <p>This is an edit</p>
-    <section></section>
-    <section>
-        <h3>Contact Information:</h3>
+    <!-- About Me -->
+    <section class="about">
+        <section class="main">
+            <img src="./IMG_1158.jpg" alt="Tristin on a mountain">
+            <div class="aboutMe">
+                <h2 id="aboutMe">About Me</h2>
+                <h5>Bio:</h5>
+                <p>I was born and raised in a small town in North East North Carolina. Since a youth, I've always had an interest in tech but I never thought to make a career out of it. I've worked in a variety of fields such as warehouses, sales, customer service, and even insurance. Although I've gained impeccable soft skills, I never got to fully imerse myself into tech. Here and now I'm making a transition</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Projects -->
+    <div class="projects">
+        <div class="title">
+            <h2 id="projects">Projects</h2>    
+        </div>
+
+        <div class="box">
+            <section class="pCard">
+                <h5>Professional Portfolio</h5>
+                <div class="cardInfo">
+                    <p>A display of my professional work using HTML & CSS. This is my first of many projects to come.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="box">
+            <section class="pCard">
+                <h5>Professional Portfolio</h5>
+                <div class="cardInfo">
+                    <p>A display of my professional work using HTML & CSS. This is my first of many projects to come.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="box">
+            <section class="pCard">
+                <h5>Professional Portfolio</h5>
+                <div class="cardInfo">
+                    <p>A display of my professional work using HTML & CSS. This is my first of many projects to come.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <!-- Skills -->
+    <section class="skills">
+        <h3 id="skills">Skills</h3>
+        <ul class="skillsList">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>and more to come!</li>
+        </ul>
+    </section>    
+
+    <!-- Contact Information -->
+    <section class="contactMe">
+        <h3 id="contactMe">Contact:</h3>
         <ul>
             <li>Email: t.eason@lafilm.edu</li>
             <li>Phone: 252-384-8091</li>
         </ul> 
     </section>
-    <section>
+
+    <!-- Links -->
+    <section class="links">
         <h3>Links</h3>
         <ul>
             <li><a href="https://www.linkedin.com/in/tristin-eason-380637106/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/easonMT" target="_blank">Github</a></li>
         </ul>
     </section>
-    <section>
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-    </section>
+
+    <footer>"If I work hard at it, I'll be where I want to be" - Nas</footer>
 
 
 </body>
